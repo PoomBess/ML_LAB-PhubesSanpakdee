@@ -1,10 +1,5 @@
 # LAB8: VGG (Deep CNN) Image Recognition - Alien vs Predator
 
-โปรเจกต์นี้เป็นการสร้างและพัฒนาโมเดล Deep Convolutional Neural Network (DCNN) โดยประยุกต์ใช้โครงสร้างสถาปัตยกรรมแบบ **VGG** ด้วยภาษา Python เพื่อทำหน้าที่จำแนกรูปภาพ (Image Classification) ระหว่างคลาส Alien และ Predator[cite: 5]
-
-## 🛠 ฟังก์ชันและขั้นตอนการทำงานหลักของระบบ
-โปรเจกต์ถูกแบ่งออกเป็นโมดูลย่อยเพื่อให้ดูแลรักษาและจัดการโค้ดได้ง่าย ดังนี้:
-
 1. **Dataset Loading (`data_loader.py`)**[cite: 2]
    * โหลดภาพชุดข้อมูลจากโฟลเดอร์โครงสร้างคลาสอัตโนมัติ (Alien และ Predator)[cite: 5]
    * กำหนดขนาดภาพ (Image Size) และจำกัดจำนวนภาพต่อคลาสตามต้องการ
